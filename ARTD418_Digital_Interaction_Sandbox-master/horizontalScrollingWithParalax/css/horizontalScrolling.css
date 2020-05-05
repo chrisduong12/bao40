@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-scroll-wrapper {
+    /*REMEMBER WIDTH AND HEIGHT ARE SWITCHED*/
+    /* The height of each div*/
+    width: 768px;
+    /* The number of divs * the section width*/
+    height: 100vw;
+    /* set the wrapper transformation origin */
+    transform-origin: right top;
+    /* set the width size into the translateY function*/
+    transform: rotate(-90deg) translateY(-768px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    /* DELETE the lines below if needed */
+    /* border-style: dotted; */
+}
+
+.horizontal-scroll-wrapper>div {
+    background-color: aqua;
+    /* The height of each div*/
+    width: 1024px;
+    /* The width of each div*/
+    height: 1024px;
+    /* set the div transformation origin */
+    transform-origin: left top;
+    /* set the wrapper's width size into the translateY function*/
+    transform: rotate(90deg) translateY(-768px);
+    /* DELETE the lines below if needed */
+    /* border-style: solid; */
+}

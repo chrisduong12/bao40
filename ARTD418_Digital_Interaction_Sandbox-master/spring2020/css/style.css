@@ -1,0 +1,40 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "kobenhavn";
+    font-size: large;
+}
+
+h2,
+h4 {
+    color: yellowgreen;
+    font-weight: 600;
+}
+
+a {
+    text-align: right;
+    font-size: small;
+    color: violet;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+#header {
+    position: relative;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #f1f1f1;
+    width: 100%;
+}

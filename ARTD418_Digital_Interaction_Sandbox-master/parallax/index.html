@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Paralax Example</title>
+    <!-- Adapted from https://codepen.io/TrevorRice/pen/oLqxZK-->
+
+    <link rel="stylesheet" href="css/paralax.css">
+
+</head>
+
+<body style="padding-left: 20%; padding-top:1%">
+
+    <!-- Copy these lines ...-->
+    <div class="paralaxContainer">
+        <div class="perspective-container">
+            <div class="perspective-layer" id="layer-1" style="background-image: url(img/81.jpg);">Background</div>
+            <div class="perspective-layer" id="layer-2" style="background-image: url(img/81.jpg);">Foreground</div>
+            <section class="content-container">
+                <div class="content">
+                    <H1>81 Points!!</H1>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="src/paralax.js"></script>
+    <!-- ... down to here -->
+    <script src="src/demoControls.js"></script>
+
+</body>
+
+</html>

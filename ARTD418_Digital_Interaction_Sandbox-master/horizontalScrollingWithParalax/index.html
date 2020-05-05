@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Horizontal scrolling</title>
+    <link rel="stylesheet" href="css/horizontalScrolling.css">
+    <link rel="stylesheet" href="css/paralax.css">
+
+</head>
+
+<body>
+    <!-- source: https://css-tricks.com/pure-css-horizontal-scrolling/ -->
+
+    <div class="horizontal-scroll-wrapper squares">
+        <div style="background-image: url(img/samotracia1.jpg);">
+            <h1>DIV 1</h1>
+        </div>
+        <div style="background-image: url(img/samotracia2.jpg);">
+            DIV 2
+        </div>
+        <div style="background-image: url(img/samotracia3.jpg);">
+            <!-- PARALAX ...-->
+            <div class="paralaxContainer" style="margin-left:200px;">
+                <div class="perspective-container">
+                    <div class="perspective-layer" id="layer-1" style="background-image: url(img/samotracia0.png);">Background</div>
+                    <div class="perspective-layer" id="layer-2" style="background-image: url(img/samotracia1.png);">Foreground</div>
+                    <section class="content-container">
+                        <div class="content">
+                            <H1>Vittoria di Samotracia</H1>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <script src="src/paralax.js"></script>
+            <!-- END PARALAX ...-->
+        </div>
+        <div style="background-image: url(img/samotracia4.jpg);">
+            DIV 4
+        </div>
+        <div style="background-image: url(img/samotracia5.jpg);">
+            DIV 5
+        </div>
+
+    </div>
+</body>
+
+</html>

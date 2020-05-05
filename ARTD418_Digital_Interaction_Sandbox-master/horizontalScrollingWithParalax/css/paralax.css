@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+    font-family: 'roboto';
+}
+
+.paralaxContainer {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* PERSPECTIVE */
+    perspective: 1000px;
+}
+
+.perspective-container {
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 0);
+}
+
+.perspective-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.41);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#layer-1 {
+    /* BACKGROUND DEPTH AND SCALE */
+    transform: translate3d(0px, 0px, -900px) scale(1.2, 1.2);
+}
+
+#layer-2 {
+    /* FOREGROUND DEPTH AND SCALE */
+    transform: translate3d(0px, 0px, -100px) scale(1.2, 1.2);
+}
+
+.content-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, -170px);
+    text-align: center;
+    color: white;
+}

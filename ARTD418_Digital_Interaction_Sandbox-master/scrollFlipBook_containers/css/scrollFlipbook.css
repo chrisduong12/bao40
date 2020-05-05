@@ -1,0 +1,91 @@
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+}
+
+.affix_top {
+    top: 0px;
+}
+
+.affix+.container-fluid {
+    padding-top: 70px;
+}
+
+section {
+    width: 100%;
+    height: 400px;
+    padding-left: 10px;
+    background-position-y: center;
+    background-position-x: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(250, 250, 250);
+}
+
+#a1 {
+    background-color: #FFFFFF;
+    height: 1300px;
+}
+
+#a1a {
+    background-image: url(../images/leal2/sunset_133463.png);
+}
+
+#a1b {
+    background-image: url(../images/leal2/sunset_133465.png);
+}
+
+#a1c {
+    background-image: url(../images/leal2/sunset_133467.png);
+}
+
+#a2 {
+    background-color: #FFFFFF;
+    height: 1300px;
+}
+
+#a2a {
+    background-image: url(../images/leal2/sunset_133469.png);
+}
+
+#a2b {
+    background-image: url(../images/leal2/sunset_133471.png);
+}
+
+#a2c {
+    background-image: url(../images/leal2/sunset_133473.png);
+}
+
+#a3 {
+    background-color: #FFFFFF;
+    height: 1300px;
+}
+
+#a3a {
+    background-image: url(../images/leal2/sunset_133475.png);
+}
+
+#a3b {
+    background-image: url(../images/leal2/sunset_133477.png);
+}
+
+#a3c {
+    background-image: url(../images/leal2/sunset_133479.png);
+}
+
+#a3 {
+    background-color: #FFFFFF;
+    height: 1300px;
+}
+
+#a4a {
+    background-image: url(../images/leal2/sunset_133481.png);
+}
+
+#a4b {
+    background-image: url(../images/leal2/sunset_133483.png);
+}
+
+#a4c {
+    background-image: url(../images/leal2/sunset_133485.png);
+}

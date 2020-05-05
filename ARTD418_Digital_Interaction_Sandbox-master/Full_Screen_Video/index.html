@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Full screen video</title>
+
+  <!-- Bootsatrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- libraries 
+  <script src="libs/p5.js" type="text/javascript"></script>
+  <script src="libs/p5.dom.js" type="text/javascript"></script>
+  <script src="libs/anime.min.js" type="text/javascript"></script>-->
+
+  <!-- css style -->
+  <link rel="stylesheet" href="css/poole.css">
+  <link rel="stylesheet" href="css/fullScreenVideo.css">
+
+  <!-- fonts style -->
+  <link rel="stylesheet" href="https://use.typekit.net/tzn5sst.css">
+
+</head>
+
+
+<body>
+
+  <!-- The video -->
+  <video autoplay muted loop id="myVideo">
+    <source src="videos/linkGallery.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <div class="content">
+
+    <div class = "container">
+
+      <div>
+        <h1>Code Examples</h1>
+        <p> UIUC Graphic Design. Juan Salamanca Ph.D. </p> 
+      </div>
+
+      <div>
+        <p> How to use video in HTML.</p>
+      </div>
+
+      <div>
+        <p> Fonts from <a href="https://fonts.adobe.com/"> fonts.adobe.com </a></p>
+      </div>
+
+      <div> 
+        <h3>Useful links</h3>
+        <p> <a href="https://www.w3schools.com/html/html5_video.asp"> Basic player</a></p>
+        <p> <a href="https://www.w3schools.com/tags/ref_av_dom.asp"> HTML controls</a></p>
+        <p> <a href="https://www.w3schools.com/howto/howto_css_fullscreen_video.asp"> Full screen</a></p>
+        <p> <a href="https://www.w3schools.com/html/html_youtube.asp">YouTube Videos</a></p>
+      </div>
+
+      <!-- Use a button to pause/play the video with JavaScript-->
+      <button class="myBtn" id="pauseButton" onclick="pauseFunction()">Pause</button>
+      <button class="myBtn" id="loopButton" onclick="switchLoop()">Looping</button>
+
+      <script src="javaScriptCode/code.js" type="text/javascript"></script>
+
+    </div>
+
+  </div>
+
+</body>

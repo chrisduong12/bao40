@@ -1,0 +1,42 @@
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+ }
+
+ .button {
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+section{
+	width: 100%; 
+	height: 350px;
+	padding-left: 10px;
+	background-position: center center; 
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+}
+	
+#a1{height: 1050px;}
+#a1a{background-image: url(../images/1.png);}
+#a1b{background-image: url(../images/2.png);}
+#a1c{background-image: url(../images/3.png);}
+
+#a2{height: 1050px;}
+#a2a{background-image: url(../images/4.png);}
+#a2b{background-image: url(../images/5.png);}
+#a2c{background-image: url(../images/6.png);}
+
+#a3{height: 1250px;}
+#a3a{background-image: url(../images/7.png);}
+#a3b{background-image: url(../images/8.png);}
+#a3c{background-image: url(../images/9.png);}

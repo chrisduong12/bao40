@@ -1,0 +1,39 @@
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+
+/* Style the button used to pause/play the video */
+
+.myBtn {
+    width: 100px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+}
+
+.myBtn:hover {
+    background: #ddd;
+    color: black;
+}

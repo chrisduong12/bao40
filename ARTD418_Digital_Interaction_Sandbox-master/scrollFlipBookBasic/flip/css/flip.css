@@ -1,0 +1,23 @@
+section {
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#a {
+    background-image: url("../images/sunset_133463.png");
+}
+
+#b {
+    background-image: url("../images/sunset_133465.png");
+}
+
+#c {
+    background-image: url("../images/sunset_133467.png");
+}
+
+#d {
+    background-image: url("../images/sunset_133468.png");
+}
