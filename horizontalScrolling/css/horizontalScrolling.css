@@ -4,8 +4,6 @@ body {
 }
 
 .horizontal-scroll-wrapper {
-    display: grid;
-    grid-template-columns: 100px;
     width: 768px;
     height: 100vw;
     transform-origin: right top;
@@ -22,6 +20,7 @@ body {
     transform: rotate(90deg) translateY(-768px);
 }
 
+/* Paralax */
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
     font-family: 'roboto';
@@ -40,7 +39,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     /* PERSPECTIVE */
-    perspective: 650px;
+    perspective: 550px;
 }
 
 .perspective-container {
@@ -57,19 +56,19 @@ body {
     height: 50%;
     backface-visibility: hidden;
     background-color: rgba(255, 255, 255, 0.41);
-    background-position: center top;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #layer-1 {
     /* BACKGROUND DEPTH AND SCALE */
-    transform: translate3d(0px, 0px, -300px) scale(0.5, 0.5);
+    transform: translate3d(0px, 0px, -900px) scale(2, 2);
 }
 
 #layer-2 {
     /* FOREGROUND DEPTH AND SCALE */
-    transform: translate3d(0px, 0px, -1100px) scale(2, 2);
+    transform: translate3d(100px, 10px, 10px) scale(0.5, 0.5);
 }
 
 .content-container {
@@ -83,27 +82,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, -170px);
-    text-align: center;
+    text-align: center bottom;
     color: white;
 }
-
-section {
-    width: 100%;
-    height: 400px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-#a {
-    background-image: url(img/Asset%203.png);
-}
-#b {
-    background-image: url(img/Asset%204.png);
-}
-#c {
-    background-image: url(img/Asset%205.png);
-}
-#d {
-    background-image: url(img/Asset%206.png);
-}
+/* Paralax End */
