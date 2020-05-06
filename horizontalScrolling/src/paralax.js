@@ -16,7 +16,7 @@ class Paralax {
 
     resize() {
         this.windowWidth = window.innerHeight;
-        this.windowHeight = window.innerWidth();
+        this.windowHeight = window.innerWidth;
         this.halfWidth = this.windowWidth / 2;
         this.halfHeight = this.windowHeight / 2;
         this.init();
